@@ -1,0 +1,49 @@
+name: gpu-general
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - ipykernel
+  - geojson
+  - ipyleaflet
+  - ipywidgets
+  - jupyterlab_widgets
+  - jupyterlab-geojson
+  - jupyterlab
+  - libgcc
+  - libpng
+  - papermill
+  - timm
+  - geomet
+  - matplotlib
+  - seaborn
+  - lightning
+  - rioxarray
+  - pystac
+  - pystac-client
+  - pyproj
+  - shapely
+  - geopandas
+  - scikit-learn
+  - scikit-image
+  - numpy
+  - pandas
+  - tqdm
+  - pytorch=2.4.*
+  - torchvision=0.19.*
+  - pytorch-cuda=12.1
+  - libblas=*=*openblas
+  - rasterio
+  - pip
+  - pip:
+      - eotdl==2026.2.27
+      - tensorboard
+      - albumentations
+      - stackstac
+      - einops
+
+prefix: null
