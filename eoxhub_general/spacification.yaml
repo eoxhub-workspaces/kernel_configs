@@ -43,6 +43,7 @@ dependencies:
   - ipyleaflet=0.20.0
   - geojson=3.2.0
   - scipy=1.17.1
+  - awscli=2.34.31
   - oauthlib
   - requests-oauthlib
   - ipykernel
