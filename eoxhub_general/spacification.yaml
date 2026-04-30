@@ -35,6 +35,14 @@ dependencies:
   - rio-stac==0.12.0
   - rio-cogeo==7.0.2
   - sentinelhub=3.11.5
+  - netCDF4=1.7.4
+  - h5py=3.16.0
+  - hdf5=2.1.0
+  - zarr=3.1.6
+  - leafmap=0.61.1
+  - ipyleaflet=0.20.0
+  - geojson=3.2.0
+  - scipy=1.17.1
   - oauthlib
   - requests-oauthlib
   - ipykernel
