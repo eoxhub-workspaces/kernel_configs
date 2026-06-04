@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - jupyterlab
+  - numpy
+  - pandas
+  - scikit-learn
+  - requests
+  - tensorflow
+  - pip:
+      - mlflow
+variables: {}
