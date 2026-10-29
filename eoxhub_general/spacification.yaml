@@ -6,7 +6,7 @@ dependencies:
   - pip:
       - eotdl==2026.3.26
   - numpy=2.4.2
-  - pandas=3.0.1
+  - pandas>=2.2,<3
   - xarray=2026.2.0
   - dask=2026.1.2
   - distributed=2026.1.2
