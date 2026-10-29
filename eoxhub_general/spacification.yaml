@@ -4,7 +4,7 @@ dependencies:
   - python=3.12.13
   - pip=26.0.1
   - pip:
-    - eotdl==2026.3.26
+      - eotdl==2026.3.26
   - numpy=2.4.2
   - pandas=3.0.1
   - xarray=2026.2.0
@@ -47,4 +47,9 @@ dependencies:
   - oauthlib
   - requests-oauthlib
   - ipykernel
+  - xcube
+  - xcube-sh
+  - copernicusmarine
+  - openeo
+  - seaborn
 variables: {}

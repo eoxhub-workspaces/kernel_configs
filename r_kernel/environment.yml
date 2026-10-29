@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+dependencies:
+  - r-base
+  - r-irkernel
+  - r-dplyr
+  - r-ggplot2
+  - r-sf
+  - r-terra
+  - ipykernel
+variables: {}
